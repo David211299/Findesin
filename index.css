@@ -362,6 +362,13 @@ nav{
   margin-left: 27px;
 }
 
+.pro_uno{
+  display: none;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+}
+
 /* --------------------- Termina Nuestros programas ------------------- */
 
 .vinculate{

@@ -1,2 +1,2 @@
 # Findesin
- Foundation for children
+ Foundation for children's social investment and development

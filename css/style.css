@@ -10,6 +10,10 @@ body{
   text-align: center;
 }
 
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
 img{
   width: 100%;
   height: 100%;
@@ -204,10 +208,10 @@ nav{
 }
 
 .vinculate{
-  width: 150px;
+  width: 120px;
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(52, 85, 225, 0.9);
   border-radius: 2px;
@@ -217,10 +221,15 @@ nav{
   font-size: 15px;
   color: #EFEFEF;
   cursor: pointer;
+  padding: 0 10px;
 }
 
 .vinculate:hover{
   background-color: #3452FF;
+}
+
+.vinculate span{
+  font-size: 17px;
 }
 
 
@@ -320,7 +329,7 @@ nav{
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 84px 0;
+
   background-color: #FBFBFB;
 }
 
@@ -422,6 +431,11 @@ nav{
 }
 
 .boton_pro{
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 20px;
+  align-items: center;
   width: 153px;
   height: 46px;
   border-radius: 2px;
@@ -431,7 +445,108 @@ nav{
   cursor: pointer;
 }
 
+.boton_pro p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+}
+
+.boton_pro span{
+  font-size: 20px;
+  padding-top: 2px;
+  color: white;
+}
+
 .btn-active{
   background-color: #FFCF6E;
   transition: 0.4s;
+}
+
+/* --------------------- Termina Nuestro programas ------------------- */
+
+.grupo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  background: url("../imagenes/grupo.svg") center center;
+  background-size: cover;
+}
+
+.g-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  height: 317px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* --------------------- Termina Equipo de trabajo ------------------- */
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.foot-cont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1230px;
+}
+
+.foot-cont h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #C1C1C1;
+}
+
+.foot-cont ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.foot-cont li{
+  margin: 0 20px;
+}
+
+.foot-cont a{
+  color: #C1C1C1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13.5px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.foot-cont p{
+  color: #C1C1C1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13.5px;
+}
+
+.created{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  color: #C1C1C1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }
